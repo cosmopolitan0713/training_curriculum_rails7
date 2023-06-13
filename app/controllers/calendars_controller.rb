@@ -19,7 +19,7 @@ class CalendarsController < ApplicationController
   end
 
   def get_week
-        # Dateオブジェクトは、日付を保持しています。下記のように`.today.day`とすると、今日の日付を取得できます。
+    # Dateオブジェクトは、日付を保持しています。下記のように`.today.day`とすると、今日の日付を取得できます。
     @todays_date = Date.today
     # 例) 今日が2月1日の場合・・・ Date.today.day => 1日
 
